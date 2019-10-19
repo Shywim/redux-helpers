@@ -4,7 +4,7 @@ import type { NavigationAction, NavigationState } from '@react-navigation/core';
 import type { Reducer } from 'redux';
 import type { Navigator, ReducerState } from './types'
 
-import { NavigationActions } from '@react-navigation/core';
+import { CommonActions as NavigationActions } from '@react-navigation/core';
 
 const initAction = NavigationActions.init();
 
